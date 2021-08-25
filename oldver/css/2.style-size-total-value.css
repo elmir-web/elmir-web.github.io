@@ -1,0 +1,8 @@
+/* !фон разноцветный*/
+.background-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	background: linear-gradient(180deg, rgba(255, 175, 60, 1) 50%, rgb(209, 209, 209) 50%);
+}
+/* !фон разноцветный*/

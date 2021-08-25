@@ -1,0 +1,374 @@
+@media (max-width: 767px) {
+	/* главный родитель двух блоков, отец-flex */
+	.wrapper-content-internal {
+		width: 90%;
+		min-width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid rgb(190, 190, 190);
+		border-bottom: 0;
+		min-height: 50px;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		background-color: rgba(255, 255, 255, 1);
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	/* боковое меню, но оно теперь сверху */
+	aside {
+		background-color: rgba(255, 147, 30, 1);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block-photo {
+		width: 100%;
+		padding: 20%;
+	}
+
+	.img-avatar {
+		width: 100%;
+		border-radius: 50%;
+	}
+
+	.profile-name-description {
+		width: 100%;
+		text-align: center;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	.profile-name-description h1 {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: bold;
+		font-size: 34px;
+	}
+
+	.profile-name-description p {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+	aside nav {
+		margin-top: 5%;
+	}
+
+	aside nav li {
+		border-bottom: 1px solid rgba(255, 255, 255, 1);
+	}
+
+	aside nav li:last-child {
+		border-bottom: none;
+	}
+
+	aside nav li {
+		display: block;
+	}
+
+	aside nav a {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		display: block;
+		width: 100%;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: rgba(255, 255, 255, 1);
+		text-transform: uppercase;
+	}
+
+	aside nav a:hover {
+		background-color: rgba(249, 249, 249, 1);
+		color: rgba(0, 0, 0, 1);
+	}
+
+	aside nav a:active {
+		background-color: rgba(255, 175, 60, 1);
+		color: rgba(0, 0, 0, 1);
+	}
+
+	aside nav a.current-page {
+		background-color: rgba(249, 249, 249, 1);
+		color: rgba(0, 0, 0, 1);
+		pointer-events: none;
+	}
+	/* боковое меню, но оно теперь сверху */
+
+	/* главный контент сайта */
+	main {
+		width: 100%;
+		min-height: 100px;
+		background-color: rgba(249, 249, 249, 1);
+		padding: 5%;
+	}
+
+	.mini-info {
+		border-left: 4px solid rgba(255, 147, 30, 1);
+		padding-left: 5px;
+		padding-bottom: 20px;
+	}
+
+	.mini-info h2 {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: bold;
+		font-size: 24px;
+		padding-top: 15px;
+	}
+
+	.mini-info hr {
+		border: none; /* Убираем границу для браузера Firefox */
+		color: rgba(255, 147, 30, 1); /* Цвет линии для остальных браузеров */
+		background-color: rgba(255, 147, 30, 1); /* Цвет линии для браузера Firefox и Opera */
+		height: 2px; /* Толщина линии */
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.mini-info h3 {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.mini-info p {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: justify;
+	}
+
+	.mini-info span {
+		margin-top: 5px;
+		display: block;
+	}
+
+	.mini-info a {
+		color: rgba(255, 147, 30, 1);
+	}
+
+	.mini-info a:hover {
+		background-color: rgba(255, 147, 30, 1);
+		color: rgba(255, 255, 255, 1);
+	}
+
+	blockquote {
+		margin-top: 25px;
+		text-align: justify;
+		width: 100%;
+		/* height: 115px; */
+		border-radius: 20px;
+		background: linear-gradient(135deg, rgb(190, 190, 190) 50%, rgba(255, 175, 60, 1) 50%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: normal;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		position: relative;
+	}
+
+	blockquote p {
+		font-family: "Ubuntu", sans-serif;
+		color: rgba(255, 255, 255, 1);
+		font-size: 16px;
+	}
+
+	blockquote p:before {
+		content: "\201C";
+		font-size: 50px;
+		color: rgba(255, 175, 60, 1);
+		font-family: "Ubuntu", sans-serif;
+		position: absolute;
+		top: 10%;
+		left: 5%;
+		transform: translateX(-50%);
+	}
+
+	blockquote p::after {
+		content: "\201C";
+		font-size: 50px;
+		color: rgb(190, 190, 190);
+		font-family: "Ubuntu", sans-serif;
+		position: absolute;
+		bottom: -15%;
+		right: 4%;
+		transform: translateX(-50%);
+	}
+
+	blockquote cite {
+		font-style: normal;
+	}
+
+	.social-links {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		width: 100%;
+	}
+
+	.social-links ul {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.social-links li {
+		width: 80px;
+	}
+
+	.social-links a {
+	}
+
+	.social-links img {
+		width: 80px;
+		border-radius: 50%;
+	}
+
+	.social-links img:hover {
+		border: 5px solid rgba(255, 147, 30, 1);
+	}
+	/* главный контент сайта */
+
+	/* стили резюме */
+	main.summary {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.summary-decoration {
+		background-color: rgba(255, 147, 30, 1);
+		width: 100%;
+		height: 3px;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.summary-image {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.summary-popap {
+		display: none;
+	}
+
+	.summary-close p {
+		display: none;
+	}
+
+	.summary-image-full {
+		display: none;
+	}
+
+	.summary h2 {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.summary-content {
+		margin-top: 30px;
+		font-family: "Ubuntu", sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: justify;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	main.summary hr.hr-one {
+		border: none; /* Убираем границу для браузера Firefox */
+		color: rgba(255, 147, 30, 1); /* Цвет линии для остальных браузеров */
+		background-color: rgba(255, 147, 30, 1); /* Цвет линии для браузера Firefox и Opera */
+		height: 2px; /* Толщина линии */
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	main.summary hr.hr-two {
+		border: none; /* Убираем границу для браузера Firefox */
+		color: rgba(255, 147, 30, 1); /* Цвет линии для остальных браузеров */
+		background-color: rgba(255, 147, 30, 1); /* Цвет линии для браузера Firefox и Opera */
+		height: 2px; /* Толщина линии */
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.summary-content a {
+		color: rgba(255, 147, 30, 1);
+	}
+
+	.summary-content a:hover {
+		background-color: rgba(255, 147, 30, 1);
+		color: rgba(255, 255, 255, 1);
+	}
+	/* стили резюме */
+
+	/* стили интересы */
+	/* main.interests ul {
+		margin-bottom: 25px;
+	} */
+
+	main.interests ul li {
+		display: block;
+	}
+
+	main.interests ul li:not(:first-child) {
+		margin-top: 10px;
+	}
+
+	.interests-item {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-bottom: 3px solid rgba(255, 147, 30, 1);
+		padding-bottom: 10px;
+	}
+
+	.interests-img {
+		width: 80%;
+	}
+
+	.interests-desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.interests-desc h2 {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.interests-desc p {
+		font-family: "Ubuntu", sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: justify;
+	}
+
+	.interests-desc a {
+		color: rgba(255, 147, 30, 1);
+	}
+
+	.interests-desc a:hover {
+		background-color: rgba(255, 147, 30, 1);
+		color: rgba(255, 255, 255, 1);
+	}
+	/* стили интересы */
+}

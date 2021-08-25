@@ -1,0 +1,12 @@
+@import url("1.reset.css"); /* !файл обнуления стандартных стилей браузеров */
+@import url("2.style-size-total-value.css"); /* !фон разноцветный с позиционированием */
+@import url("3.style-size-767px-and-less.css"); /* !при разрешении окна 767px и меньше */
+@import url("4.style-size-767px-and-1023px.css"); /* !при разрешении окна от 767px и до 1023px */
+@import url("5.style-size-1023px-and-more.css"); /* !Точки останова для адаптива CSS: */
+
+/* @media (min-width: 1024px) { */
+/* 320px — 479px: мобильные устройства;
+480px — 767px: планшеты;
+768px — 1023px: маленькие экраны, ноутбуки;
+1024px — выше: большие экраны;
+*/
