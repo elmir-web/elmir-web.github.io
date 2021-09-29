@@ -1,6 +1,6 @@
 import "./Landing-Two.scss";
 
-function LandingOne() {
+function LandingTwo() {
   return (
     <div className="Landing-Two">
       <header>
@@ -20,9 +20,10 @@ function LandingOne() {
         <a href="#" className="a-link-button">
           Показать все портфолио
         </a>
+        <div className="block-decoration"></div>
       </main>
     </div>
   );
 }
 
-export default LandingOne;
+export default LandingTwo;

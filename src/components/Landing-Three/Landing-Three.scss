@@ -1,0 +1,120 @@
+.Landing-Three {
+  min-height: 100vh;
+  // padding-bottom: 30px; // изменить
+  background: linear-gradient(
+    135deg,
+    rgb(64, 138, 248) 20%,
+    rgb(255, 255, 255) 33%
+  );
+
+  header {
+    height: 60px;
+    position: relative;
+
+    span.interests-name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      color: #4e6fa5;
+      line-height: 1;
+    }
+  }
+
+  main {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    div.interests-cards {
+      $varImgSize: 200px;
+
+      margin-top: 20px;
+
+      // z-index: 1;
+      height: 250px + 250px - 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      div.row-one {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      div.row-two {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      div.int-card {
+        z-index: 1;
+        width: $varImgSize;
+        height: $varImgSize;
+        // background-color: #4089f8;
+        border-radius: 50%;
+
+        .img-wrapper {
+          overflow: hidden;
+          width: $varImgSize;
+          height: $varImgSize;
+          border-radius: 50%;
+
+          .int-img {
+            width: $varImgSize;
+            height: $varImgSize;
+          }
+        }
+
+        .img-name {
+          text-align: center;
+        }
+      }
+    }
+
+    .a-link-button {
+      display: inline-block;
+      margin-top: 70px;
+      text-decoration: none;
+      background-color: transparent;
+      border: 2px solid #4e6fa5;
+      border-radius: 0.6em;
+      color: #4e6fa5;
+      font-size: 14px;
+      line-height: 1;
+      padding: 1.2em 2.8em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+      align-self: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+      &:hover,
+      &:focus {
+        color: #fff;
+        outline: 0;
+        box-shadow: 0 0 40px 40px #4e6fa5 inset;
+      }
+    }
+
+    .block-decoration {
+      z-index: 0;
+      background: #fff;
+      background-image: radial-gradient(#c3c6cd 2px, transparent 0);
+      background-size: 30px 30px;
+      background-position: -5px 0px;
+      position: absolute;
+      width: 203.5px;
+      height: 203.5px;
+      left: 92%;
+      top: 55vh;
+    }
+  }
+}
