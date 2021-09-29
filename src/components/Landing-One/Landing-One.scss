@@ -1,8 +1,5 @@
 .Landing-One {
-  // все как 53.22
-  // 46,78 осталось
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   background: linear-gradient(
     90deg,
@@ -10,10 +7,12 @@
     rgb(64, 138, 248) 25%
   );
   color: #20579e;
+  padding-bottom: 74px;
 
   header {
     height: 60px;
     position: relative;
+
     span.job-position {
       position: absolute;
       top: 50%;
@@ -26,17 +25,15 @@
   }
 
   main {
-    // background-color: black;
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 580px;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
     display: flex;
     justify-content: space-between;
     position: relative;
+    height: 580px;
 
     .mini-description {
-      // background-color: red;
-      width: 750px;
+      width: 56.1%;
       padding-top: 60px;
       padding-left: 45px;
 
@@ -59,13 +56,8 @@
         border: 2px solid #4e6fa5;
         border-radius: 0.6em;
         color: #4e6fa5;
-        cursor: pointer;
-        // display: flex;
-        align-self: center;
         font-size: 14px;
-        font-weight: 400;
         line-height: 1;
-        // margin: 20px;
         padding: 1.2em 2.8em;
         text-align: center;
         text-transform: uppercase;
@@ -83,7 +75,7 @@
 
     .block-photo {
       background-color: #e2e2e2;
-      width: 400px;
+      width: 29.89%;
       z-index: 1;
     }
 
@@ -94,7 +86,7 @@
       background-size: 30px 30px;
       background-position: -5px 0px;
       position: absolute;
-      width: 170px;
+      width: 11%;
       height: 603.5px;
       left: 930px;
       top: 50px;
