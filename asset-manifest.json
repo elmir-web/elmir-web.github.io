@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdc527d0.chunk.css",
-    "main.js": "/static/js/main.78294a1f.chunk.js",
-    "main.js.map": "/static/js/main.78294a1f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.db95dbae.js",
-    "runtime-main.js.map": "/static/js/runtime-main.db95dbae.js.map",
+    "main.css": "/static/css/main.fb8f9e79.chunk.css",
+    "main.js": "/static/js/main.de07390e.chunk.js",
+    "main.js.map": "/static/js/main.de07390e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5cc5d49.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5cc5d49.js.map",
     "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
     "static/js/2.691f7456.chunk.js": "/static/js/2.691f7456.chunk.js",
     "static/js/2.691f7456.chunk.js.map": "/static/js/2.691f7456.chunk.js.map",
-    "static/js/3.441e7c28.chunk.js": "/static/js/3.441e7c28.chunk.js",
-    "static/js/3.441e7c28.chunk.js.map": "/static/js/3.441e7c28.chunk.js.map",
+    "static/js/3.7dc0aa27.chunk.js": "/static/js/3.7dc0aa27.chunk.js",
+    "static/js/3.7dc0aa27.chunk.js.map": "/static/js/3.7dc0aa27.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.bdc527d0.chunk.css.map": "/static/css/main.bdc527d0.chunk.css.map",
-    "static/js/2.691f7456.chunk.js.LICENSE.txt": "/static/js/2.691f7456.chunk.js.LICENSE.txt"
+    "static/css/main.fb8f9e79.chunk.css.map": "/static/css/main.fb8f9e79.chunk.css.map",
+    "static/js/2.691f7456.chunk.js.LICENSE.txt": "/static/js/2.691f7456.chunk.js.LICENSE.txt",
+    "static/media/1.activity.c97ef2fc.png": "/static/media/1.activity.c97ef2fc.png",
+    "static/media/2.interests.0fffba31.png": "/static/media/2.interests.0fffba31.png",
+    "static/media/3.music.301650c0.png": "/static/media/3.music.301650c0.png",
+    "static/media/4.films.4de45534.png": "/static/media/4.films.4de45534.png",
+    "static/media/6.games.e754478f.png": "/static/media/6.games.e754478f.png",
+    "static/media/7.quotes.81ac5f14.png": "/static/media/7.quotes.81ac5f14.png",
+    "static/media/8.about.290fe9e5.png": "/static/media/8.about.290fe9e5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.db95dbae.js",
+    "static/js/runtime-main.f5cc5d49.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.691f7456.chunk.js",
-    "static/css/main.bdc527d0.chunk.css",
-    "static/js/main.78294a1f.chunk.js"
+    "static/css/main.fb8f9e79.chunk.css",
+    "static/js/main.de07390e.chunk.js"
   ]
 }
