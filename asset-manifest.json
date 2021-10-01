@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1db0c5e8.chunk.css",
-    "main.js": "/static/js/main.9b051cc0.chunk.js",
-    "main.js.map": "/static/js/main.9b051cc0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ceedee60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ceedee60.js.map",
+    "main.css": "/static/css/main.8ed38dbd.chunk.css",
+    "main.js": "/static/js/main.fcf6931f.chunk.js",
+    "main.js.map": "/static/js/main.fcf6931f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40ebe3b0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40ebe3b0.js.map",
     "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
-    "static/js/2.5aba117c.chunk.js": "/static/js/2.5aba117c.chunk.js",
-    "static/js/2.5aba117c.chunk.js.map": "/static/js/2.5aba117c.chunk.js.map",
-    "static/js/3.f5d437c5.chunk.js": "/static/js/3.f5d437c5.chunk.js",
-    "static/js/3.f5d437c5.chunk.js.map": "/static/js/3.f5d437c5.chunk.js.map",
+    "static/js/2.b4c3dfd5.chunk.js": "/static/js/2.b4c3dfd5.chunk.js",
+    "static/js/2.b4c3dfd5.chunk.js.map": "/static/js/2.b4c3dfd5.chunk.js.map",
+    "static/js/3.b18c018e.chunk.js": "/static/js/3.b18c018e.chunk.js",
+    "static/js/3.b18c018e.chunk.js.map": "/static/js/3.b18c018e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.1db0c5e8.chunk.css.map": "/static/css/main.1db0c5e8.chunk.css.map",
-    "static/js/2.5aba117c.chunk.js.LICENSE.txt": "/static/js/2.5aba117c.chunk.js.LICENSE.txt",
+    "static/css/main.8ed38dbd.chunk.css.map": "/static/css/main.8ed38dbd.chunk.css.map",
+    "static/js/2.b4c3dfd5.chunk.js.LICENSE.txt": "/static/js/2.b4c3dfd5.chunk.js.LICENSE.txt",
     "static/media/1.activity.c97ef2fc.png": "/static/media/1.activity.c97ef2fc.png",
     "static/media/2.interests.0fffba31.png": "/static/media/2.interests.0fffba31.png",
     "static/media/3.music.301650c0.png": "/static/media/3.music.301650c0.png",
@@ -26,10 +26,10 @@
     "static/media/whatsapp_logo_icon_154480.d4c0712d.png": "/static/media/whatsapp_logo_icon_154480.d4c0712d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ceedee60.js",
+    "static/js/runtime-main.40ebe3b0.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.5aba117c.chunk.js",
-    "static/css/main.1db0c5e8.chunk.css",
-    "static/js/main.9b051cc0.chunk.js"
+    "static/js/2.b4c3dfd5.chunk.js",
+    "static/css/main.8ed38dbd.chunk.css",
+    "static/js/main.fcf6931f.chunk.js"
   ]
 }
