@@ -1,5 +1,9 @@
 import "./Landing-Two.scss";
 
+import ButtonLink from "./../../ButtonLink/ButtonLink";
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function LandingTwo() {
   return (
     <div className="Landing-Two">
@@ -17,9 +21,7 @@ function LandingTwo() {
           <div className="card card-1">6</div>
         </div>
 
-        <a href="#" className="a-link-button">
-          Показать все портфолио
-        </a>
+        <ButtonLink linkHref="/portfolio" linkName="Портфолио" marginTop="30" />
         <div className="block-decoration"></div>
       </main>
     </div>

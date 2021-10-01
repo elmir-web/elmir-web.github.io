@@ -20,9 +20,46 @@ function LandingFour() {
           <a href="#" className="selected-a">
             Главная
           </a>
-          <a href="#">Резюме</a>
-          <a href="#">интересы</a>
-          <a href="#">О сайте</a>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+
+              window.location = `${window.location.href}summary`;
+            }}
+          >
+            Резюме
+          </a>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+
+              window.location = `${window.location.href}portfolio`;
+            }}
+          >
+            портфолио
+          </a>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+
+              window.location = `${window.location.href}interests`;
+            }}
+          >
+            интересы
+          </a>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+
+              window.location = `${window.location.href}about`;
+            }}
+          >
+            О сайте
+          </a>
         </nav>
       </header>
       <main>
@@ -61,7 +98,7 @@ function LandingFour() {
         <div className="social-links">
           <div className="social-mail">
             <a href="mailto:elmir.web@gmail.com">
-              <img className="social-img" src={MailImg} />{" "}
+              <img src={MailImg} className="social-img" />
               <span>На почту с клиента</span>
             </a>
           </div>

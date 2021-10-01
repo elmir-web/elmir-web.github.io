@@ -9,6 +9,8 @@ import GamesImg from "./assets/6.games.png";
 import QuotesImg from "./assets/7.quotes.png";
 import AbousImg from "./assets/8.about.png";
 
+import ButtonLink from "./../../ButtonLink/ButtonLink";
+
 function LandingThree() {
   return (
     <div className="Landing-Three">
@@ -85,9 +87,7 @@ function LandingThree() {
           </div>
         </div>
 
-        <a href="#" className="a-link-button">
-          Подробнее
-        </a>
+        <ButtonLink linkHref="/interests" linkName="Обо мне" marginTop="70" />
 
         <div className="block-decoration"></div>
       </main>

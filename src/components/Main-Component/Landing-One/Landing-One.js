@@ -1,5 +1,9 @@
 import "./Landing-One.scss";
 
+import ButtonLink from "./../../ButtonLink/ButtonLink";
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function LandingOne() {
   return (
     <div className="Landing-One">
@@ -29,9 +33,7 @@ function LandingOne() {
             постоянно.
           </p>
 
-          <a href="#" className="a-link-button">
-            Подробная информация
-          </a>
+          <ButtonLink linkHref="/summary" linkName="Резюме" marginTop="20" />
         </div>
         <div className="block-photo">PHOTO</div>
         <div className="block-decoration"></div>

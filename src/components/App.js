@@ -1,25 +1,37 @@
 import "./App.scss";
 
-import LandingOne from "./Landing-One/Landing-One";
-import LandingTwo from "./Landing-Two/Landing-Two";
-import LandingThree from "./Landing-Three/Landing-Three";
-import LandingFour from "./Landing-Four/Landing-Four";
+import MainComponent from "./Main-Component/MainComponent";
+import SummaryComponent from "./Summary-Component/SummaryComponent";
+import PortfolioComponent from "./Portfolio-Component/Portfolio";
+import InterestsComponent from "./Interests-Component/Interests";
+import AboutComponent from "./About-Component/About";
 
-// let elementTemp;
-// let test = 10;
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
-  // if (test === 10) {
-  //   elementTemp = <LandingTwo />;
-  // }
-
   return (
     <div className="App">
-      <LandingOne />
-      <LandingTwo />
-      <LandingThree />
-      <LandingFour />
-      {/* {elementTemp} */}
+      <Switch>
+        <Route exact path="/">
+          <MainComponent />
+        </Route>
+
+        <Route exact path="/summary">
+          <SummaryComponent />
+        </Route>
+
+        <Route exact path="/portfolio">
+          <PortfolioComponent />
+        </Route>
+
+        <Route exact path="/interests">
+          <InterestsComponent />
+        </Route>
+
+        <Route exact path="/about">
+          <AboutComponent />
+        </Route>
+      </Switch>
     </div>
   );
 }
