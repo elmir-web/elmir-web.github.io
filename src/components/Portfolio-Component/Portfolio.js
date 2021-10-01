@@ -1,7 +1,16 @@
 import "./Portfolio.scss";
 
+import Navigation from "./../Navigation/Navigation";
+
 function Portfolio() {
-  return <div className="Portfolio">portfolio</div>;
+  return (
+    <div className="Portfolio">
+      <header>
+        <Navigation selectedPage="3" />
+      </header>
+      <main></main>
+    </div>
+  );
 }
 
 export default Portfolio;

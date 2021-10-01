@@ -1,7 +1,16 @@
 import "./About.scss";
 
+import Navigation from "./../Navigation/Navigation";
+
 function About() {
-  return <div className="About-Component">About</div>;
+  return (
+    <div className="About-Component">
+      <header>
+        <Navigation selectedPage="5" />
+      </header>
+      <main></main>
+    </div>
+  );
 }
 
 export default About;

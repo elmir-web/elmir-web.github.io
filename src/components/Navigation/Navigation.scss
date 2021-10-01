@@ -1,0 +1,33 @@
+.Navigation {
+  position: relative;
+  height: 100px;
+  background-color: #4089f8;
+
+  nav {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 300;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    a {
+      cursor: pointer;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: #4089f8;
+      }
+    }
+  }
+}

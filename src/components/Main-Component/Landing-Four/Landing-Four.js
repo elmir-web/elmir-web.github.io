@@ -6,6 +6,8 @@ import TelegramImg from "./assets/telegram_icon-icons.com_72055.png";
 import VKImg from "./assets/vk_icon-icons.com_66102.png";
 import WTImg from "./assets/whatsapp_logo_icon_154480.png";
 
+import Navigation from "./../../Navigation/Navigation";
+
 function LandingFour() {
   function PushEmail(e) {
     e.preventDefault();
@@ -16,51 +18,7 @@ function LandingFour() {
   return (
     <div className="Landing-Four">
       <header>
-        <nav>
-          <a href="#" className="selected-a">
-            Главная
-          </a>
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-
-              window.location = `${window.location.href}summary`;
-            }}
-          >
-            Резюме
-          </a>
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-
-              window.location = `${window.location.href}portfolio`;
-            }}
-          >
-            портфолио
-          </a>
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-
-              window.location = `${window.location.href}interests`;
-            }}
-          >
-            интересы
-          </a>
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-
-              window.location = `${window.location.href}about`;
-            }}
-          >
-            О сайте
-          </a>
-        </nav>
+        <Navigation selectedPage="1" />
       </header>
       <main>
         <div className="create-email">

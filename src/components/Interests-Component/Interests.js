@@ -1,7 +1,16 @@
 import "./Interests.scss";
 
+import Navigation from "./../Navigation/Navigation";
+
 function Interests() {
-  return <div className="Interests-Component">Interests</div>;
+  return (
+    <div className="Interests-Component">
+      <header>
+        <Navigation selectedPage="4" />
+      </header>
+      <main></main>
+    </div>
+  );
 }
 
 export default Interests;
