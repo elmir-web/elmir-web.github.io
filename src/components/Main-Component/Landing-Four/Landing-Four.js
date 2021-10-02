@@ -18,7 +18,7 @@ function LandingFour() {
   return (
     <div className="Landing-Four">
       <header>
-        <Navigation selectedPage="1" />
+        <Navigation className="Navigation" selectedPage="1" />
       </header>
       <main>
         <div className="create-email">

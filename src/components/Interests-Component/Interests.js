@@ -6,7 +6,7 @@ function Interests() {
   return (
     <div className="Interests-Component">
       <header>
-        <Navigation selectedPage="4" />
+        <Navigation className="Navigation" selectedPage="4" />
       </header>
       <main></main>
     </div>

@@ -1,7 +1,9 @@
 .Navigation {
+  font-family: "Montserrat Alternates", sans-serif;
   position: relative;
   height: 100px;
-  background-color: #4089f8;
+  background-color: transparent;
+  line-height: normal;
 
   nav {
     height: 100px;
@@ -12,7 +14,7 @@
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 300;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 35px;

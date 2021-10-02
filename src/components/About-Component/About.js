@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="About-Component">
       <header>
-        <Navigation selectedPage="5" />
+        <Navigation className="Navigation" selectedPage="5" />
       </header>
       <main></main>
     </div>

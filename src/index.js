@@ -13,6 +13,9 @@ ReactDOM.render(
     <Router>
       <App />
     </Router>
+    {/* <BrowserRouter basename={process.env.PUBLIC_URL}>
+      { routes }
+    </BrowserRouter> */}
   </React.StrictMode>,
   document.getElementById("root")
 );

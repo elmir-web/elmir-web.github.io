@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div className="Portfolio">
       <header>
-        <Navigation selectedPage="3" />
+        <Navigation className="Navigation" selectedPage="3" />
       </header>
       <main></main>
     </div>
