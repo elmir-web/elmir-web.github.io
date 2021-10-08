@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function LandingOne() {
   return (
     <div className="Landing-One">
-      <header>
+      {/* <header>
         <span className="job-position">
           Frontend-<span>разработчик</span>
         </span>
@@ -37,7 +37,7 @@ function LandingOne() {
         </div>
         <div className="block-photo">PHOTO</div>
         <div className="block-decoration"></div>
-      </main>
+      </main> */}
     </div>
   );
 }

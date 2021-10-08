@@ -11,9 +11,9 @@ function MainComponent() {
   return (
     <div className="MainComponent">
       <LandingOne />
-      <LandingTwo />
+      {/* <LandingTwo />
       <LandingThree />
-      <LandingFour />
+      <LandingFour /> */}
     </div>
   );
 }

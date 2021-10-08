@@ -16,7 +16,7 @@ function App() {
           <MainComponent />
         </Route>
 
-        <Route exact path="/summary">
+        {/* <Route exact path="/summary">
           <SummaryComponent />
         </Route>
 
@@ -30,7 +30,7 @@ function App() {
 
         <Route exact path="/about">
           <AboutComponent />
-        </Route>
+        </Route> */}
       </Switch>
     </div>
   );
