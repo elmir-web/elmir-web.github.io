@@ -1,35 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c4a593a.chunk.css",
-    "main.js": "/static/js/main.f58dd608.chunk.js",
-    "main.js.map": "/static/js/main.f58dd608.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.40ebe3b0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.40ebe3b0.js.map",
-    "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
-    "static/js/2.b4c3dfd5.chunk.js": "/static/js/2.b4c3dfd5.chunk.js",
-    "static/js/2.b4c3dfd5.chunk.js.map": "/static/js/2.b4c3dfd5.chunk.js.map",
-    "static/js/3.b18c018e.chunk.js": "/static/js/3.b18c018e.chunk.js",
-    "static/js/3.b18c018e.chunk.js.map": "/static/js/3.b18c018e.chunk.js.map",
+    "main.css": "/static/css/main.d031b7aa.chunk.css",
+    "main.js": "/static/js/main.1cca6c91.chunk.js",
+    "main.js.map": "/static/js/main.1cca6c91.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f156f1cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f156f1cc.js.map",
+    "static/js/2.5ab435f5.chunk.js": "/static/js/2.5ab435f5.chunk.js",
+    "static/js/2.5ab435f5.chunk.js.map": "/static/js/2.5ab435f5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.0c4a593a.chunk.css.map": "/static/css/main.0c4a593a.chunk.css.map",
-    "static/js/2.b4c3dfd5.chunk.js.LICENSE.txt": "/static/js/2.b4c3dfd5.chunk.js.LICENSE.txt",
-    "static/media/1.activity.c97ef2fc.png": "/static/media/1.activity.c97ef2fc.png",
-    "static/media/2.interests.0fffba31.png": "/static/media/2.interests.0fffba31.png",
-    "static/media/3.music.301650c0.png": "/static/media/3.music.301650c0.png",
-    "static/media/4.films.4de45534.png": "/static/media/4.films.4de45534.png",
-    "static/media/6.games.e754478f.png": "/static/media/6.games.e754478f.png",
-    "static/media/7.quotes.81ac5f14.png": "/static/media/7.quotes.81ac5f14.png",
-    "static/media/8.about.290fe9e5.png": "/static/media/8.about.290fe9e5.png",
-    "static/media/telegram_icon-icons.com_72055.a6400fc9.png": "/static/media/telegram_icon-icons.com_72055.a6400fc9.png",
-    "static/media/vk_icon-icons.com_66102.e56af2c6.png": "/static/media/vk_icon-icons.com_66102.e56af2c6.png",
-    "static/media/whatsapp_logo_icon_154480.d4c0712d.png": "/static/media/whatsapp_logo_icon_154480.d4c0712d.png"
+    "static/css/main.d031b7aa.chunk.css.map": "/static/css/main.d031b7aa.chunk.css.map",
+    "static/js/2.5ab435f5.chunk.js.LICENSE.txt": "/static/js/2.5ab435f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40ebe3b0.js",
-    "static/css/2.679831fc.chunk.css",
-    "static/js/2.b4c3dfd5.chunk.js",
-    "static/css/main.0c4a593a.chunk.css",
-    "static/js/main.f58dd608.chunk.js"
+    "static/js/runtime-main.f156f1cc.js",
+    "static/js/2.5ab435f5.chunk.js",
+    "static/css/main.d031b7aa.chunk.css",
+    "static/js/main.1cca6c91.chunk.js"
   ]
 }
