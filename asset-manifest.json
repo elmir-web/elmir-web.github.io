@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf92bb47.css",
-    "main.js": "/static/js/main.85f62ce5.js",
+    "main.css": "/static/css/main.63ea8af6.css",
+    "main.js": "/static/js/main.8c343fcb.js",
     "static/media/Elmir.png": "/static/media/Elmir.26700da4f411ffc90f55.png",
     "index.html": "/index.html",
-    "main.cf92bb47.css.map": "/static/css/main.cf92bb47.css.map",
-    "main.85f62ce5.js.map": "/static/js/main.85f62ce5.js.map"
+    "main.63ea8af6.css.map": "/static/css/main.63ea8af6.css.map",
+    "main.8c343fcb.js.map": "/static/js/main.8c343fcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf92bb47.css",
-    "static/js/main.85f62ce5.js"
+    "static/css/main.63ea8af6.css",
+    "static/js/main.8c343fcb.js"
   ]
 }
