@@ -1,12 +1,13 @@
-import "./App.scss";
-import SiteCapGag from "./site-capgag/Site-CapGag";
-import MyFilms from "./my-films/My-Films";
+import ElmirAside from "./ElmirAside";
+import MainContent from "./MainContent";
 
 function App() {
   return (
     <div className="App">
-      <SiteCapGag />
-      <MyFilms />
+      <div className="wrapper">
+        <ElmirAside />
+        <MainContent />
+      </div>
     </div>
   );
 }
