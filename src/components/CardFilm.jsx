@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 
 const CardFilm = ({ filmInfo }) => {
   let kinopoiskClickLinkToFilm = `https://www.kinopoisk.ru/film/${filmInfo.filmId}`;
+  let popupClassUniqueName = `FilmMoreInfoPopup__${filmInfo.filmId}`;
+  let popupClassName = `FilmMoreInfoPopup ${popupClassUniqueName}`;
+
   return (
     <div className="CardFilm">
       <div className="WrapInfo">
@@ -15,9 +18,8 @@ const CardFilm = ({ filmInfo }) => {
         <div
           className="FilmInfo"
           onClick={() => {
-            let filmPopup = document.querySelector(".FilmMoreInfoPopup");
+            let filmPopup = document.querySelector(`.${popupClassUniqueName}`);
             filmPopup.style.display = "block";
-            // filmPopup.classList.add("filmPopupTurnOn");
           }}
         >
           <div className="FilmRating">
@@ -38,25 +40,16 @@ const CardFilm = ({ filmInfo }) => {
         </div>
       </div>
 
-      <div
-        className="FilmMoreInfoPopup"
-        onClick={() => {
-          // let filmPopup = document.querySelector(".FilmMoreInfoPopup");
-          // filmPopup.style.display = "none";
-        }}
-      >
-        <div
-          className="InfoPopup"
-          onClick={(e) => {
-            // e.preventDefault();
-          }}
-        >
+      <div className={popupClassName} style={{ display: "none" }}>
+        <div className="InfoPopup">
           <div className="PopupHead">
             Информация о фильме: {filmInfo.nameRu}
             <button
               className="PopupClose"
               onClick={() => {
-                let filmPopup = document.querySelector(".FilmMoreInfoPopup");
+                let filmPopup = document.querySelector(
+                  `.${popupClassUniqueName}`
+                );
                 filmPopup.style.display = "none";
               }}
             >

@@ -208,9 +208,9 @@ const testArr = [
 const MyFilms = () => {
   return (
     <div className="MyFilms">
-      {testArr.map((arrItem, index) => {
-        return <CardFilm filmInfo={arrItem} key={index.toString()} />;
-      })}
+      {testArr.map((arrItem, index) => (
+        <CardFilm filmInfo={arrItem} key={index.toString()} />
+      ))}
     </div>
   );
 };
