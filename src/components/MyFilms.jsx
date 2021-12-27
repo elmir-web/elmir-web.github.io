@@ -205,11 +205,15 @@ const testArr = [
   },
 ];
 
-const MyFilms = () => {
+const MyFilms = ({ callbackClickPopup }) => {
   return (
     <div className="MyFilms">
       {testArr.map((arrItem, index) => (
-        <CardFilm filmInfo={arrItem} key={index.toString()} />
+        <CardFilm
+          filmInfo={arrItem}
+          callbackClickPopup={callbackClickPopup}
+          key={index.toString()}
+        />
       ))}
     </div>
   );

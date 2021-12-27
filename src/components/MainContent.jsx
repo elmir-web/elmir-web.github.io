@@ -2,7 +2,7 @@ import React from "react";
 
 import MyFilms from "./MyFilms";
 
-const MainContent = () => {
+const MainContent = ({ callbackClickPopup }) => {
   return (
     <div className="MainContent">
       <h1>
@@ -24,7 +24,7 @@ const MainContent = () => {
         .
       </h3>
       <br />
-      <MyFilms />
+      <MyFilms callbackClickPopup={callbackClickPopup} />
     </div>
   );
 };
