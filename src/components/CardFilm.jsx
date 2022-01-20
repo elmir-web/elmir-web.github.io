@@ -20,15 +20,6 @@ const CardFilm = ({ filmInfo, callbackClickPopup }) => {
           onClick={() => {
             callbackClickPopup(filmInfo);
           }}
-          // onClick={
-          // () => {
-          // window.alert("click");
-          // document.querySelector(".FilmInfoPressPopup").style.display =
-          // "block";
-          // let filmPopup = document.querySelector(`.${popupClassUniqueName}`);
-          // filmPopup.style.display = "block";
-          // }
-          // }
         >
           <div className="FilmRating">
             <span>Рейтинг {filmInfo.rating}</span>
