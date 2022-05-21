@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2f162df.css",
-    "main.js": "/static/js/main.274f82c9.js",
-    "static/media/boorsok.ttf": "/static/media/boorsok.12ad833f550876385355.ttf",
-    "static/media/boorsok.otf": "/static/media/boorsok.d5b9279ad4a5ba71cf8d.otf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.83872462.css",
+    "main.js": "/static/js/main.f2e40823.js",
+    "static/media/Owner-Image.png": "/static/media/Owner-Image.3fdaa5adc744f7bdd868.png",
+    "static/media/abstract-background.png": "/static/media/abstract-background.e8829378f6ca1d6485a6.png",
+    "static/media/image-project.png": "/static/media/image-project.ad97534c10b60e7c343b.png",
+    "static/media/abstract-background-mobile.png": "/static/media/abstract-background-mobile.4e1e4c0346d69145c4a6.png",
+    "static/media/education-title-icon.svg": "/static/media/education-title-icon.69247a277420dc2a1084.svg",
+    "static/media/experience-title-icon.svg": "/static/media/experience-title-icon.b9b22cde7e046c4f60a0.svg",
+    "static/media/Header__logo.svg": "/static/media/Header__logo.60bd9e50b098b876f67fa91547f9a8b6.svg",
     "index.html": "/index.html",
-    "main.b2f162df.css.map": "/static/css/main.b2f162df.css.map",
-    "main.274f82c9.js.map": "/static/js/main.274f82c9.js.map"
+    "static/media/button-slider-prev.svg": "/static/media/button-slider-prev.5139eb067a952a9fef17.svg",
+    "static/media/button-getproject.svg": "/static/media/button-getproject.b4185a2a01197137e924.svg",
+    "static/media/icon-button-goto-cv.svg": "/static/media/icon-button-goto-cv.5c053807c4d59b837672.svg",
+    "static/media/menu-mobile-close.svg": "/static/media/menu-mobile-close.bd5280a22c98e5b1694f9ced8c1d5be8.svg",
+    "static/media/item-link-arrow.svg": "/static/media/item-link-arrow.de8e92678deb10606350.svg",
+    "static/media/button-slider-next.svg": "/static/media/button-slider-next.187863361cfcbae64a84.svg",
+    "static/media/menu-mobile.svg": "/static/media/menu-mobile.4c7768fd08752b09c8bced1c558c9c44.svg",
+    "main.83872462.css.map": "/static/css/main.83872462.css.map",
+    "main.f2e40823.js.map": "/static/js/main.f2e40823.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f162df.css",
-    "static/js/main.274f82c9.js"
+    "static/css/main.83872462.css",
+    "static/js/main.f2e40823.js"
   ]
 }
