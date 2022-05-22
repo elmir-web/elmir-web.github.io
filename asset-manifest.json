@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab4cbe0c.css",
-    "main.js": "/static/js/main.316e330e.js",
+    "main.css": "/static/css/main.90ed2e38.css",
+    "main.js": "/static/js/main.6a7aab9b.js",
+    "static/media/2.ELMIR-FILMS-FRONTEND.png": "/static/media/2.ELMIR-FILMS-FRONTEND.609bd92afe8b5eb809c9.png",
     "static/media/Owner-Image.png": "/static/media/Owner-Image.3fdaa5adc744f7bdd868.png",
     "static/media/abstract-background.png": "/static/media/abstract-background.e8829378f6ca1d6485a6.png",
+    "static/media/1.ELMIR-WEB-PERSONAL-FULLSTACK.png": "/static/media/1.ELMIR-WEB-PERSONAL-FULLSTACK.cf4646cf073901a6737a.png",
+    "static/media/3.GSM-OGU.png": "/static/media/3.GSM-OGU.599abde3273d7bb37dca.png",
     "static/media/education-title-icon.svg": "/static/media/education-title-icon.69247a277420dc2a1084.svg",
     "static/media/experience-title-icon.svg": "/static/media/experience-title-icon.b9b22cde7e046c4f60a0.svg",
     "static/media/Header__logo.svg": "/static/media/Header__logo.60bd9e50b098b876f67fa91547f9a8b6.svg",
@@ -15,11 +18,11 @@
     "static/media/item-link-arrow.svg": "/static/media/item-link-arrow.de8e92678deb10606350.svg",
     "static/media/button-slider-next.svg": "/static/media/button-slider-next.187863361cfcbae64a84.svg",
     "static/media/menu-mobile.svg": "/static/media/menu-mobile.4c7768fd08752b09c8bced1c558c9c44.svg",
-    "main.ab4cbe0c.css.map": "/static/css/main.ab4cbe0c.css.map",
-    "main.316e330e.js.map": "/static/js/main.316e330e.js.map"
+    "main.90ed2e38.css.map": "/static/css/main.90ed2e38.css.map",
+    "main.6a7aab9b.js.map": "/static/js/main.6a7aab9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab4cbe0c.css",
-    "static/js/main.316e330e.js"
+    "static/css/main.90ed2e38.css",
+    "static/js/main.6a7aab9b.js"
   ]
 }
