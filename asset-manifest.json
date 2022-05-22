@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.90ed2e38.css",
-    "main.js": "/static/js/main.6a7aab9b.js",
+    "main.css": "/static/css/main.ab7308cf.css",
+    "main.js": "/static/js/main.154b6db5.js",
     "static/media/2.ELMIR-FILMS-FRONTEND.png": "/static/media/2.ELMIR-FILMS-FRONTEND.609bd92afe8b5eb809c9.png",
     "static/media/Owner-Image.png": "/static/media/Owner-Image.3fdaa5adc744f7bdd868.png",
     "static/media/abstract-background.png": "/static/media/abstract-background.e8829378f6ca1d6485a6.png",
@@ -18,11 +18,11 @@
     "static/media/item-link-arrow.svg": "/static/media/item-link-arrow.de8e92678deb10606350.svg",
     "static/media/button-slider-next.svg": "/static/media/button-slider-next.187863361cfcbae64a84.svg",
     "static/media/menu-mobile.svg": "/static/media/menu-mobile.4c7768fd08752b09c8bced1c558c9c44.svg",
-    "main.90ed2e38.css.map": "/static/css/main.90ed2e38.css.map",
-    "main.6a7aab9b.js.map": "/static/js/main.6a7aab9b.js.map"
+    "main.ab7308cf.css.map": "/static/css/main.ab7308cf.css.map",
+    "main.154b6db5.js.map": "/static/js/main.154b6db5.js.map"
   },
   "entrypoints": [
-    "static/css/main.90ed2e38.css",
-    "static/js/main.6a7aab9b.js"
+    "static/css/main.ab7308cf.css",
+    "static/js/main.154b6db5.js"
   ]
 }
