@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7308cf.css",
-    "main.js": "/static/js/main.154b6db5.js",
+    "main.css": "/static/css/main.1d472d99.css",
+    "main.js": "/static/js/main.6eded118.js",
     "static/media/2.ELMIR-FILMS-FRONTEND.png": "/static/media/2.ELMIR-FILMS-FRONTEND.609bd92afe8b5eb809c9.png",
     "static/media/Owner-Image.png": "/static/media/Owner-Image.3fdaa5adc744f7bdd868.png",
     "static/media/abstract-background.png": "/static/media/abstract-background.e8829378f6ca1d6485a6.png",
     "static/media/1.ELMIR-WEB-PERSONAL-FULLSTACK.png": "/static/media/1.ELMIR-WEB-PERSONAL-FULLSTACK.cf4646cf073901a6737a.png",
     "static/media/3.GSM-OGU.png": "/static/media/3.GSM-OGU.599abde3273d7bb37dca.png",
-    "static/media/education-title-icon.svg": "/static/media/education-title-icon.69247a277420dc2a1084.svg",
-    "static/media/experience-title-icon.svg": "/static/media/experience-title-icon.b9b22cde7e046c4f60a0.svg",
-    "static/media/Header__logo.svg": "/static/media/Header__logo.60bd9e50b098b876f67fa91547f9a8b6.svg",
+    "static/media/education-title-icon.svg": "/static/media/education-title-icon.749fc2c7f1ef0f28f083.svg",
+    "static/media/experience-title-icon.svg": "/static/media/experience-title-icon.a55606952e08e25fd3af.svg",
+    "static/media/Header__logo.svg": "/static/media/Header__logo.ec762393b02dcb948ff86a9540f1749c.svg",
     "index.html": "/index.html",
-    "static/media/button-slider-prev.svg": "/static/media/button-slider-prev.5139eb067a952a9fef17.svg",
-    "static/media/button-getproject.svg": "/static/media/button-getproject.b4185a2a01197137e924.svg",
-    "static/media/icon-button-goto-cv.svg": "/static/media/icon-button-goto-cv.5c053807c4d59b837672.svg",
-    "static/media/menu-mobile-close.svg": "/static/media/menu-mobile-close.bd5280a22c98e5b1694f9ced8c1d5be8.svg",
-    "static/media/item-link-arrow.svg": "/static/media/item-link-arrow.de8e92678deb10606350.svg",
-    "static/media/button-slider-next.svg": "/static/media/button-slider-next.187863361cfcbae64a84.svg",
-    "static/media/menu-mobile.svg": "/static/media/menu-mobile.4c7768fd08752b09c8bced1c558c9c44.svg",
-    "main.ab7308cf.css.map": "/static/css/main.ab7308cf.css.map",
-    "main.154b6db5.js.map": "/static/js/main.154b6db5.js.map"
+    "static/media/button-slider-prev.svg": "/static/media/button-slider-prev.a08f3722ea9ae3634788.svg",
+    "static/media/button-getproject.svg": "/static/media/button-getproject.4123be5ef78995564f31.svg",
+    "static/media/icon-button-goto-cv.svg": "/static/media/icon-button-goto-cv.1406f041fd095c642f82.svg",
+    "static/media/menu-mobile-close.svg": "/static/media/menu-mobile-close.6353eb97b2029c9ae8fca7f55690356e.svg",
+    "static/media/item-link-arrow.svg": "/static/media/item-link-arrow.25e288d39d6491872c61.svg",
+    "static/media/button-slider-next.svg": "/static/media/button-slider-next.96adeaec2632eb68467c.svg",
+    "static/media/menu-mobile.svg": "/static/media/menu-mobile.dfd76357a1da22bc47540cd6b2033275.svg",
+    "main.1d472d99.css.map": "/static/css/main.1d472d99.css.map",
+    "main.6eded118.js.map": "/static/js/main.6eded118.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab7308cf.css",
-    "static/js/main.154b6db5.js"
+    "static/css/main.1d472d99.css",
+    "static/js/main.6eded118.js"
   ]
 }
